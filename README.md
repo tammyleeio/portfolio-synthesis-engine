@@ -1,49 +1,53 @@
 # Portfolio Synthesis Engine (PSE)
 
-**Turn every AI chat into portfolio gold — automatically.**
+**Self-building portfolio for neuro-symbolic AI engineering.**
 
-A meta-system built with Grok that synthesizes code, architectures, decisions, and deliverables from conversational history into production-grade portfolio assets.
+A closed-loop Python system that mines AI chat interactions (especially with frontier models like Grok), extracts high-signal artifacts, and auto-generates polished GitHub repos, case studies, demos, and threads — with zero-to-minimal manual effort.
 
-## Why it matters (2026 reality)
-- Your best thinking happens in AI threads.
-- Most of it vanishes.
-- Recruiters and opportunities reward **visible, documented systems thinking**.
+Built to demonstrate the exact skills frontier AI labs seek in 2026: **neuro-symbolic systems design**, AI-augmented leverage, symbolic/functional programming rigor, and trustworthy hybrid reasoning.
 
-PSE closes the loop.
+## Why This Project (Positioning for Frontier Labs)
+- **Neuro-Symbolic Core**: Neural LLMs provide intuition & synthesis; symbolic layers enforce structure, versioning, and explainability.
+- Aligns with 2026 trends: PyReason, Logic Tensor Networks, DreamCoder-style program learning, hybrid agents (DeepMind AlphaGeometry, IBM NS-CL, MIT-IBM Watson).
+- Languages: Python backbone + hooks for LISP-style symbolic expr, Julia numeric/symbolic speed, Haskell functional purity.
 
-## Core Features
-- Trigger-based synthesis (`PSE ON`)
-- Intelligent artifact extraction (code, diagrams, plans, metrics)
-- Auto-generation of: READMEs, case studies, interactive demos, social proof
-- Self-referential: This project documents its own creation
-- Extensible to any AI interface (Grok, Claude, Cursor, etc.)
+## Architecture
 
-## ArchitectureConversation History
-↓
-Conversation Miner (Grok tools + prompts)
-↓
-Artifact Extractor + Polisher
-↓
-Asset Generator (Repo + Docs + Demo)
-↓
-Publisher (GitHub + Vercel + Social)
+<grok-card data-id="3c4346" data-type="image_card" data-plain-type="render_searched_image"  data-arg-image_id="y7taZ"  data-arg-size="LARGE" ></grok-card>
 
-## How to Use
-1. In any Grok thread, type `PSE ON`
-2. Grok synthesizes the session into assets
-3. Review → push → ship
 
-## This Project Itself Was Built With PSE
-- Session 1: Initial request + strategy
-- Session 2: Activation + first asset generation (you are here)
+(Neural pattern extraction + symbolic logic enforcement → hybrid output)
 
-## Roadmap
-- Week 1: Core engine + template repo
-- Week 2-4: Automation (CLI, webhooks, multi-platform support)
-- Q2 2026: Public dashboard of all synthesized assets + traction analytics
+Core Loop:
+1. Trigger (`PSE ON`)
+2. Conversation Miner + Artifact Extractor (LLM + structured prompts)
+3. Neuro-Symbolic Polisher (symbolic validation via SymPy/PyReason where possible)
+4. Asset Generator + Publisher
 
-## Built by [Tammy] with Grok (xAI)
-Demonstrates: AI-augmented engineering, systems design, leverage-first execution.
+## Tech Stack (Evolving)
+- **Primary**: Python 3.12+
+- **Symbolic**: SymPy, PyReason (temporal logic), potential Owlready2 / RDF for knowledge graphs
+- **Neural**: PyTorch + Hugging Face (for embeddings/evaluation)
+- **Functional/Interop**: pyjulia, haskell-bridge experiments
+- **Automation**: GitPython for auto-push, future CLI/webhook
 
-Star it if you're building in public too.
+## Quick Start
+```bash
+git clone https://github.com/tammyleeio/portfolio-synthesis-engine.git
+cd portfolio-synthesis-engine
+pip install -r requirements.txt  # we'll generate this next
+```
+In any Grok thread: type PSE ON
 
+This Project Was Synthesized With PSE
+- Session 1: Initial concept + strategy
+- Session 2: Activation + v0.1
+- Session 3: Targeting + visuals + neuro-symbolic positioning (you are here)
+
+Roadmap (Compounding Toward Frontier Roles)
+- Next 30 days: Python core + neuro-symbolic mini-demo (e.g., simple symbolic validator for generated code)
+- 90 days: Multi-LLM support + Julia/Haskell interop experiments
+- 6–12 months: Public dashboard + traction metrics; open-source PSE as a tool for other AI engineers
+
+Built by Tammy Lee with Grok (xAI) — demonstrating AI-augmented, neuro-symbolic systems thinking.
+Star if you're building hybrid AI systems.
